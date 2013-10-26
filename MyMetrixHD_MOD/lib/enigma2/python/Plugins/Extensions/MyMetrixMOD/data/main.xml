@@ -5271,7 +5271,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<widget name="key_green" render="Label" position="395,637" size="240,24" zPosition="1" font="RegularLight; 20" halign="left" backgroundColor="background20" transparent="1" />
 		<widget name="key_blue" render="Label" position="975,637" size="240,24" zPosition="1" font="RegularLight; 20" halign="left" backgroundColor="background20" transparent="1" />
 		<widget name="info-hdd" position="70,127" zPosition="1" size="550,150" font="Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="background20" foregroundColor="white" />
-		<widget name="info-usb" position="70,301" zPosition="1" size="550,200" font="Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="background20" foregroundColor="white" />
+		<widget name="info-usb" position="70,301" zPosition="1" size="550,250" font="Regular; 22" halign="left" valign="top" transparent="1" backgroundColor="background20" foregroundColor="white" />
 	</screen>
 	<screen name="CronManager" position="0,0" size="1280,720" title="CronManager" backgroundColor="background90" flags="wfNoBorder">
 		<eLabel name="new eLabel" position="40,25" zPosition="-10" size="1205,650" backgroundColor="background20" transparent="0" />
