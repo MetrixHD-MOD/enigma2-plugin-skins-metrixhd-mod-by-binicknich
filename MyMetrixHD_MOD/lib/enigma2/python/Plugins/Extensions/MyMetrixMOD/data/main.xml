@@ -2730,7 +2730,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<widget source="TranslationInfo" render="Label" position="19,100" size="560,250" font="Regular;20" transparent="1" />
 	</screen>
 	<screen name="VideoFinetune" position="0,0" size="1280,720" backgroundColor="black" flags="wfNoBorder">
-		<widget source="Canvas" render="Canvas" position="280,70" size="720,576" />
+		<widget source="Canvas" render="Canvas" position="140,70" size="1000,576" />
 	</screen>
 	<screen name="AutoTimeshift" position="0,0" size="1280,720" title="Auto Timeshift Configuration" flags="wfNoBorder" backgroundColor="background90">
 		<eLabel name="new eLabel" position="40,25" zPosition="-10" size="1205,650" backgroundColor="background20" transparent="0" />
