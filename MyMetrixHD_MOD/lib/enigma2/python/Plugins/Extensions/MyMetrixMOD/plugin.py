@@ -86,7 +86,7 @@ channelInfoFontSizes = [
 #############################################################
 
 config.plugins.MyMetrixMOD = ConfigSubsection()
-config.plugins.MetrixWeather = ConfigSubsection()
+config.plugins.MetrixMODWeather = ConfigSubsection()
 
 				#General
 config.plugins.MyMetrixMOD.Image = ConfigSelection(default="main-custom-openatv", choices = [
@@ -115,14 +115,14 @@ config.plugins.MyMetrixMOD.SkinColor = ConfigSelection(default="00149baf", choic
 				("006c0aab", _("Violet")),
 				("00bf9217", _("Yellow"))
 				])
-config.plugins.MyMetrixMOD.SkinColorProgress = ConfigSelection(default="skincolor-progess-none", choices = [
+config.plugins.MyMetrixMOD.SkinColorProgress = ConfigSelection(default="skincolor-progess-color", choices = [
 				("skincolor-progess-color", _("On")),
 				("skincolor-progess-none", _("Off"))
 				])
 				#MetrixWeather
-config.plugins.MetrixWeather.refreshInterval = ConfigNumber(default=10)
-config.plugins.MetrixWeather.woeid = ConfigNumber(default=640161) #Location (visit metrixhd.info)
-config.plugins.MetrixWeather.tempUnit = ConfigSelection(default="Celsius", choices = [
+config.plugins.MetrixMODWeather.refreshInterval = ConfigNumber(default=10)
+config.plugins.MetrixMODWeather.woeid = ConfigNumber(default=640161) #Location (visit metrixhd.info)
+config.plugins.MetrixMODWeather.tempUnit = ConfigSelection(default="Celsius", choices = [
 				("Celsius", _("Celsius")),
 				("Fahrenheit", _("Fahrenheit"))
 				])
@@ -225,11 +225,11 @@ class MyMetrixMOD(ConfigListScreen, Screen):
 		list = []
 		list.append(getConfigListEntry(_("MetrixImage"), config.plugins.MyMetrixMOD.Image))
 		list.append(getConfigListEntry(_("MetrixColor"), config.plugins.MyMetrixMOD.SkinColor))
-		list.append(getConfigListEntry(_("MetrixColor on Progressbar"), config.plugins.MyMetrixMOD.SkinColorProgress))
+		list.append(getConfigListEntry(_("MetrixColor on Progress-/Volumebar"), config.plugins.MyMetrixMOD.SkinColorProgress))
 		list.append(getConfigListEntry(_("----------------------------- MetrixWeather  --------------------------------"), ))
-		list.append(getConfigListEntry(_("MetrixWeather ID"), config.plugins.MetrixWeather.woeid))
-		list.append(getConfigListEntry(_("Unit"), config.plugins.MetrixWeather.tempUnit))
-		list.append(getConfigListEntry(_("Refresh Interval (min)"), config.plugins.MetrixWeather.refreshInterval))
+		list.append(getConfigListEntry(_("MetrixWeather ID"), config.plugins.MetrixMODWeather.woeid))
+		list.append(getConfigListEntry(_("Unit"), config.plugins.MetrixMODWeather.tempUnit))
+		list.append(getConfigListEntry(_("Refresh Interval (min)"), config.plugins.MetrixMODWeather.refreshInterval))
 		list.append(getConfigListEntry(_("-------------------------------- InfoBar ------------------------------------"), ))
 		list.append(getConfigListEntry(_("Weather Widget"), config.plugins.MyMetrixMOD.InfobarWeatherWidget))
 		list.append(getConfigListEntry(_("Channel info"), config.plugins.MyMetrixMOD.InfobarShowChannelInfo))
@@ -371,6 +371,14 @@ class MyMetrixMOD(ConfigListScreen, Screen):
 
 			###custom-main XML
 			self.appendSkinFile(self.daten + config.plugins.MyMetrixMOD.Image.value + ".xml")
+			
+			###skin-user
+			try:
+				self.appendSkinFile(self.daten + "skin-user.xml")
+			except:
+				pass
+			###skin-end
+			self.appendSkinFile(self.daten + "skin-end.xml")
 
 			xFile = open(self.dateiTMP, "w")
 			for xx in self.skin_lines:

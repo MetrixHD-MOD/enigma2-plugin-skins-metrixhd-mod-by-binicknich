@@ -1,7 +1,7 @@
 <!-- /* EPGSelection-picon -->
 	<screen name="EPGSelection" position="0,0" size="1280,720" title="EPG Selection" backgroundColor="background90" flags="wfNoBorder">
 		<eLabel name="new eLabel" position="51,51" zPosition="-10" size="340,525" backgroundColor="background20" transparent="0" />
-		<widget source="Service" render="XPicon" position="117,64" size="220,132" transparent="1" alphatest="blend">
+		<widget source="Service" render="MetrixMODXPicon" position="117,64" size="220,132" transparent="1" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<eLabel name="new eLabel" position="416,51" zPosition="-10" size="810,619" backgroundColor="background20" transparent="0" />

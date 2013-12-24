@@ -50,7 +50,7 @@
 		<widget source="session.RecordState" render="Pixmap" pixmap="MetrixHD_MOD/icons/ico_rec_on.png" position="252,570" size="23,23" zPosition="2" alphatest="blend">
 			<convert type="ConditionalShowHide">Blink</convert>
 		</widget>
-		<widget source="session.CurrentService" render="XPicon" position="20,569" size="220,132" zPosition="10" backgroundColor="background20" transparent="0" alphatest="blend">
+		<widget source="session.CurrentService" render="MetrixMODXPicon" position="20,569" size="220,132" zPosition="10" backgroundColor="background20" transparent="0" alphatest="blend">
 			<convert type="ServiceName">Reference</convert>
 		</widget>
 		<widget source="session.Event_Now" render="Label" position="1081,557" size="75,26" font="Regular; 22" halign="right" backgroundColor="background20" transparent="1" valign="top">
