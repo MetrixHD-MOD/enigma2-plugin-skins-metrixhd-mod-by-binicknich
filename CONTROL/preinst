@@ -1,15 +1,15 @@
 #!/bin/sh
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/__init__.pyo
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.pyo
-rm -rf /usr/lib/enigma2/python/Components/Converter/ChannelCryptoInfo.pyo
-rm -rf /usr/lib/enigma2/python/Components/Converter/MetrixCaidDisplay.pyo
-rm -rf /usr/lib/enigma2/python/Components/Converter/MetrixExtendedServiceInfo.pyo
-rm -rf /usr/lib/enigma2/python/Components/Converter/MetrixRefString.pyo
-rm -rf /usr/lib/enigma2/python/Components/Converter/MetrixExtendedServiceInfo.pyo
-rm -rf /usr/lib/enigma2/python/Components/Renderer/MetrixSingleEpgList.pyo
-rm -rf /usr/lib/enigma2/python/Components/Renderer/MetrixWeatherUpdater.pyo
-rm -rf /usr/lib/enigma2/python/Components/Renderer/MetrixVolumeText.pyo
-rm -rf /usr/lib/enigma2/python/Components/Renderer/XPicon.pyo
+rm -rf /usr/lib/enigma2/python/Components/Converter/MetrixMODChannelCryptoInfo.pyo
+rm -rf /usr/lib/enigma2/python/Components/Converter/MetrixMODCaidDisplay.pyo
+rm -rf /usr/lib/enigma2/python/Components/Converter/MetrixMODExtendedServiceInfo.pyo
+rm -rf /usr/lib/enigma2/python/Components/Converter/MetrixMODRefString.pyo
+rm -rf /usr/lib/enigma2/python/Components/Converter/MetrixMODExtendedServiceInfo.pyo
+rm -rf /usr/lib/enigma2/python/Components/Renderer/MetrixMODSingleEpgList.pyo
+rm -rf /usr/lib/enigma2/python/Components/Renderer/MetrixMODWeatherUpdater.pyo
+rm -rf /usr/lib/enigma2/python/Components/Renderer/MetrixMODVolumeText.pyo
+rm -rf /usr/lib/enigma2/python/Components/Renderer/MetrixMODXPicon.pyo
 echo "                                                          "
 echo "     \  |      |     _)      |  | _ \    \  |  _ \ _ \    "
 echo "    |\/ |  -_)  _|  _||\ \ / __ | |  |  |\/ | (   ||  |   "
