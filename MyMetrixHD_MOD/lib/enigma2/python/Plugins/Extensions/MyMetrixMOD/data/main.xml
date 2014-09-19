@@ -931,8 +931,8 @@
 		<eLabel name="new eLabel" position="416,51" zPosition="-10" size="810,619" backgroundColor="background20" transparent="0" />
 		<eLabel name="new eLabel" position="51,51" zPosition="-10" size="340,525" backgroundColor="background20" transparent="0" />
 		<eLabel text="Enhanced Movie Center" position="425,55" size="790,45" font="Regular; 29" foregroundColor="unffffff" backgroundColor="un444444" transparent="1" />
-		<widget source="Title" render="Label" position="424,100" size="790,35" font="Regular; 22" foregroundColor="grey" backgroundColor="background20" transparent="1" />
-		<widget name="list" position="427,140" size="789,472" itemHeight="32" CoolFont="Regular;21" CoolSelectFont="Regular;21" CoolDateFont="Regular;21" CoolMoviePos="35" CoolMovieSize="545" CoolFolderSize="550" CoolTitleColor="0" CoolDatePos="1000" CoolDateWidth="110" CoolDateColor="0" CoolHighlightColor="0" CoolProgressPos="1000" CoolBarPos="640" CoolBarHPos="10" CoolBarSize="55,10" CoolBarSizeSa="110,16" BackColorSel="metrixSelection" DefaultColor="#FFFFFF" UnwatchedColor="#FFFFFF" WatchingColor="#D8C100" FinishedColor="#5FA816" RecordingColor="#E51400" backgroundColor="background20" foregroundColorSelected="#ffffff" scrollbarMode="showNever" transparent="1" />
+		<widget source="Title" render="Label" position="425,100" size="790,35" font="Regular; 22" foregroundColor="grey" backgroundColor="background20" transparent="1" />
+		<widget name="list" position="425,140" size="790,348" itemHeight="32" CoolFont="Regular;21" CoolSelectFont="Regular;21" CoolDateFont="Regular;21" CoolMoviePos="35" CoolMovieSize="545" CoolFolderSize="550" CoolTitleColor="0" CoolDatePos="1000" CoolDateWidth="110" CoolDateColor="0" CoolHighlightColor="0" CoolProgressPos="1000" CoolBarPos="640" CoolBarHPos="10" CoolBarSize="55,10" CoolBarSizeSa="110,16" BackColorSel="metrixSelection" DefaultColor="#FFFFFF" UnwatchedColor="#FFFFFF" WatchingColor="#D8C100" FinishedColor="#5FA816" RecordingColor="#E51400" backgroundColor="background20" foregroundColorSelected="#ffffff" scrollbarMode="showNever" transparent="1" />
 		<widget name="wait" position="-1,283" size="1283,50" zPosition="1" font="Regular;32" foregroundColor="unffffff" backgroundColor="un18080911" halign="center" valign="center" />
 		<widget name="Cover" position="108,81" size="225,315" zPosition="5" backgroundColor="background20" alphatest="off" transparent="0" />
 		<widget source="Service" render="Label" position="59,409" size="320,50" font="Regular; 22" foregroundColor="foreground" backgroundColor="background20" valign="center" halign="left" transparent="1">
@@ -1083,18 +1083,18 @@
 	</screen>
 	<screen name="ChannelContextMenu" position="center,center" size="1280,720" title="Channellist menu" flags="wfNoBorder" transparent="0" backgroundColor="transparent">
 		<eLabel position="264,51" zPosition="-1" size="340,320" backgroundColor="background20" transparent="0" />
-		<eLabel position="265,410" zPosition="-1" size="340,70" backgroundColor="background20" transparent="0" />
-		<ePixmap position="310,85" size="256,256" pixmap="MetrixHD_MOD/icons/service_info.png" alphatest="blend" />
-		<eLabel text="Channellist menu" position="20,552" size="1273,296" font="Regular; 100" backgroundColor="metrixPreTrans" transparent="1" foregroundColor="metrixPreTrans" valign="top" zPosition="-50" />
+		<ePixmap position="310,85" size="256,256" pixmap="MetrixHD_MOD/icons/service_info.png" transparent="1" />
+		<eLabel text="Channellist menu" position="15,609" size="1273,170" font="Block; 100" backgroundColor="metrixPreTrans" transparent="1" foregroundColor="metrixPreTrans" valign="top" zPosition="-50" />
 		<widget name="menu" position="656,61" size="390,550" zPosition="3" itemHeight="35" scrollbarMode="showNever" enableWrapAround="1" transparent="1" />
 		<eLabel position="645,51" zPosition="-11" size="412,565" backgroundColor="background20" foregroundColor="background20" />
-		<widget source="global.CurrentTime" render="Label" position="425,410" size="190,70" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="center">
+		<eLabel position="265,410" zPosition="-11" size="340,70" backgroundColor="background20" transparent="0" />
+		<widget source="global.CurrentTime" render="Label" position="432,412" size="170,65" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="265,442" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="267,445" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%d. %B</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="288,418" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="290,421" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
 	</screen>
@@ -1916,19 +1916,19 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 	</screen>
 	<screen name="MovieContextMenu" position="center,center" size="1280,720" title="Movielist menu" flags="wfNoBorder" backgroundColor="background90">
 		<eLabel name="new eLabel" position="264,51" zPosition="-11" size="340,320" backgroundColor="background20" />
-		<eLabel name="new eLabel" position="265,410" zPosition="-11" size="340,70" backgroundColor="background20" />
 		<eLabel name="new eLabel" position="645,51" zPosition="-11" size="412,565" backgroundColor="background20" />
+		<eLabel position="265,410" zPosition="-11" size="340,70" backgroundColor="background20" transparent="0" />
 		<widget source="global.CurrentTime" render="Label" position="432,412" size="170,65" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="257,445" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="267,445" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%d. %B</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="280,421" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="290,421" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
 		<widget name="menu" position="652,66" size="397,537" zPosition="3" itemHeight="35" scrollbarMode="showNever" enableWrapAround="1" transparent="1" />
-		<ePixmap position="306,83" size="256,256" pixmap="MetrixHD_MOD/icons/tv.png" transparent="1" alphatest="blend" />
+		<ePixmap position="306,83" size="256,256" pixmap="MetrixHD_MOD/icons/tv.png" transparent="1" />
 	</screen>
 	<screen name="MoviePlayer" position="0,0" size="1283,723" title="InfoBar" backgroundColor="transparent" flags="wfNoBorder">
 		<eLabel name="new eLabel" position="0,570" zPosition="-2" size="1281,150" backgroundColor="background20" transparent="0" />
@@ -2263,16 +2263,16 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<eLabel name="new eLabel" position="208,410" size="368,70" zPosition="-11" backgroundColor="background20" transparent="0" />
 		<eLabel name="new eLabel" position="606,92" size="525,547" zPosition="-11" backgroundColor="background20" transparent="0" />
 		<ePixmap position="267,114" size="256,256" pixmap="MetrixHD_MOD/icons/plugin2.png" transparent="1" zPosition="5" />
-		<widget source="global.CurrentTime" render="Label" position="387,413" size="196,65" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
+		<widget source="global.CurrentTime" render="Label" position="392,413" size="196,65" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="213,443" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="213,445" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%d. %B</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="236,418" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="236,420" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
-		<eLabel text="Plugin browser" position="5,619" size="1273,170" font="Block; 100" backgroundColor="metrixPreTrans" transparent="1" foregroundColor="metrixPreTrans" valign="top" zPosition="-50" />
+		<eLabel text="Plugin browser" position="15,609" size="1273,170" font="Block; 100" backgroundColor="metrixPreTrans" transparent="1" foregroundColor="metrixPreTrans" valign="top" zPosition="-50" />
 		<widget name="list" position="614,107" size="510,520" scrollbarMode="showOnDemand" backgroundColor="background20" foregroundColor="white" enableWrapAround="1" transparent="1" itemHeight="50" />
 		<ePixmap pixmap="MetrixHD_MOD/buttons/key_red.png" position="217,0" size="30,40" alphatest="blend" />
 		<ePixmap pixmap="MetrixHD_MOD/buttons/key_green.png" position="429,0" size="30,40" alphatest="blend" />
@@ -2524,13 +2524,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 	</screen>
 	<screen name="SkinSelector" position="0,0" size="1280,720" title="Skin Selector" flags="wfNoBorder" backgroundColor="background90">
 		<eLabel name="new eLabel" position="264,51" zPosition="-1" size="340,320" backgroundColor="background20" transparent="0" />
-		<widget source="global.CurrentTime" render="Label" position="419,408" size="213,69" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
+		<widget source="global.CurrentTime" render="Label" position="430,414" size="213,69" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="257,443" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="264,445" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%d. %B</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="280,421" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="287,422" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
 		<eLabel name="new eLabel" position="265,410" zPosition="-1" size="340,70" backgroundColor="background20" transparent="0" />
@@ -2578,17 +2578,17 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		</widget>
 	</screen>
 	<screen name="Subtitles" position="0,0" size="1280,720" title="Subtitle selection" flags="wfNoBorder" backgroundColor="background90">
-		<eLabel name="new eLabel" position="264,51" zPosition="-11" size="340,320" backgroundColor="background20" />
+		<eLabel position="264,51" zPosition="-11" size="340,320" backgroundColor="background20" />
+		<eLabel position="265,410" zPosition="-11" size="340,70" backgroundColor="background20" transparent="0" />
 		<widget source="global.CurrentTime" render="Label" position="432,412" size="170,65" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="257,445" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="267,445" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%d. %B</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="280,421" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="290,421" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
-		<eLabel name="new eLabel" position="265,410" zPosition="-1" size="340,70" backgroundColor="background20" />
 		<widget name="config" position="656,62" size="389,501" itemHeight="35" scrollbarMode="showNever" backgroundColor="background20" enableWrapAround="1" transparent="1">
 		</widget>
 		<eLabel name="new eLabel" position="645,51" zPosition="-11" size="412,523" backgroundColor="background20" />
@@ -6608,13 +6608,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<eLabel name="new eLabel" position="208,410" size="368,70" zPosition="-11" backgroundColor="background20" transparent="0" />
 		<eLabel name="new eLabel" position="606,92" size="525,547" zPosition="-11" backgroundColor="background20" transparent="0" />
 		<ePixmap position="267,114" size="256,256" pixmap="MetrixHD_MOD/icons/plugin2.png" transparent="1" zPosition="5" />
-		<widget source="global.CurrentTime" render="Label" position="382,412" size="196,66" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
+		<widget source="global.CurrentTime" render="Label" position="392,412" size="196,66" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="213,443" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="223,443" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%d. %B</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="236,420" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="246,420" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
 		<widget name="Mlist" position="614,107" size="510,520" zPosition="1" scrollbarMode="showOnDemand" transparent="1" colorServiceDescription="grey" colorServiceDescriptionSelected="white" />

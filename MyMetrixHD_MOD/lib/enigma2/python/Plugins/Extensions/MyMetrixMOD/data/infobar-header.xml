@@ -1,16 +1,6 @@
 <!--* Infobar Header -->
 	<screen name="InfoBar" position="0,0" size="1280,720" backgroundColor="transparent2" flags="wfNoBorder">
 		<eLabel name="new eLabel" position="0,550" zPosition="-2" size="1280,170" backgroundColor="background20" transparent="0" />
-		<eLabel name="new eLabel" position="913,40" zPosition="-1" size="320,70" backgroundColor="background20" transparent="0" />
-		<widget source="global.CurrentTime" render="Label" position="1074,41" size="165,65" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
-			<convert type="ClockToText">Default</convert>
-		</widget>
-		<widget source="global.CurrentTime" render="Label" position="928,50" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
-			<convert type="ClockToText">Format:%A</convert>
-		</widget>
-		<widget source="global.CurrentTime" render="Label" position="913,75" size="140,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
-			<convert type="ClockToText">Format:%e. %B</convert>
-		</widget>
 		<ePixmap pixmap="MetrixHD_MOD/icons/ico_hd_off.png" position="1159,688" size="41,20" zPosition="1" alphatest="blend" />
 		<widget source="session.CurrentService" render="Pixmap" position="1159,688" size="41,20" zPosition="2" pixmap="MetrixHD_MOD/icons/ico_hd_on.png" alphatest="blend">
 			<convert type="ServiceInfo">VideoWidth</convert>

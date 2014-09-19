@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MyMetrixMOD v1.1b\n"
-"POT-Creation-Date: 2013-10-17 12:06+0100\n"
-"PO-Revision-Date: 2013-10-17 12:07+0100\n"
+"POT-Creation-Date: 2014-09-19 18:04+0100\n"
+"PO-Revision-Date: 2014-09-19 18:04+0100\n"
 "Last-Translator: Sebastian\n"
 "Language-Team: iMaxxx, MOD by BiNiCKNiCH <none@ima.xxx>\n"
 "Language: de\n"
@@ -11,315 +11,326 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
-"X-Poedit-Basepath: D:\\Arbeitsverzeichnis\\Gigablue Skin Project\\GIT"
-"\\MetrixHD-MOD\\enigma2-plugin-skins-metrixhd-mod-by-binicknich"
-"\\MyMetrixHD_MOD\\lib\\enigma2\\python\\Plugins\\Extensions\\MyMetrixMOD\n"
-"X-Poedit-SearchPath-0: /Users/sebastian/Projekte/openATV/enigma2-plugin-"
-"skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/"
-"Extensions/MyMetrixMOD\n"
+"X-Poedit-Basepath: D:\\Eigene_Dateien\\Dokumente\\GitHub\\enigma2-plugin-"
+"skins-metrixhd-mod-by-binicknich\\MyMetrixHD_MOD\\lib\\enigma2\\python"
+"\\Plugins\\Extensions\\MyMetrixMOD\n"
+"X-Poedit-SearchPath-0: D:\\Eigene_Dateien\\Dokumente\\GitHub\\enigma2-plugin-"
+"skins-metrixhd-mod-by-binicknich\\MyMetrixHD_MOD\\lib\\enigma2\\python"
+"\\Plugins\\Extensions\\MyMetrixMOD\n"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:93
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:93
 msgid "openATV"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:94
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:94
 msgid "openMips"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:97
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:97
 msgid "Amber"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:98
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:98
 msgid "Brown"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:99
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:99
 msgid "Cobalt"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:100
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:100
 msgid "Crimson"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:101
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:101
 msgid "Cyan"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:102
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:102
 msgid "Magenta"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:103
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:103
 msgid "Lime"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:104
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:104
 msgid "Indigo"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:105
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:105
 msgid "Green"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:106
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:106
 msgid "Emerald"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:107
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:107
 msgid "Mauve"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:108
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:108
 msgid "Olive"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:109
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:109
 msgid "Orange"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:110
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:110
 msgid "Pink"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:111
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:111
 msgid "Red"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:112
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:112
 msgid "Sienna"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:113
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:113
 msgid "Steel"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:114
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:114
 msgid "Teal"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:115
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:115
 msgid "Violet"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:116
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:116
 msgid "Yellow"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:119
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:131
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:135
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:139
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:157
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:161
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:165
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:119
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:137
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:141
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:159
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:163
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:167
 msgid "On"
 msgstr "An"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:120
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:132
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:136
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:140
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:146
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:158
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:162
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:166
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:169
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:120
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:134
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:138
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:142
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:148
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:160
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:164
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:168
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:171
 msgid "Off"
 msgstr "Aus"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:126
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:126
 msgid "Celsius"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:127
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:127
 msgid "Fahrenheit"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:143
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:131
+msgid "Clock"
+msgstr "Uhrzeit"
+
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:132
+msgid "Weather"
+msgstr "Wetter"
+
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:133
+msgid "Clock and Weather"
+msgstr "Uhrzeit und Wetter"
+
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:145
 msgid "Channelnumber"
 msgstr "Sendernummer"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:144
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:146
 msgid "Channelname"
 msgstr "Sendername"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:145
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:147
 msgid "Channelnumber and name"
 msgstr "Sendernummer und Name"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:170
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:172
 msgid "2 Tuner"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:171
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:173
 msgid "3 Tuner"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:172
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:174
 msgid "4 Tuner"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:176
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:178
 msgid "20 Regular"
-msgstr ""
+msgstr "20 Normal"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:177
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:179
 msgid "20 Thin"
-msgstr ""
+msgstr "20 Dünn"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:178
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:180
 msgid "22 Regular"
-msgstr ""
+msgstr "22 Normal"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:179
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:181
 msgid "22 Thin"
-msgstr ""
+msgstr "22 Dünn"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:180
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:182
 msgid "24 Regular"
-msgstr ""
+msgstr "24 Normal"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:181
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:183
 msgid "24 Thin"
-msgstr ""
+msgstr "24 Dünn"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:184
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:186
 msgid "Default"
 msgstr "Standard"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:185
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:187
 msgid "Picon"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:188
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:190
 msgid "Light"
 msgstr "Hell"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:189
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:191
 msgid "Dark"
 msgstr "Dunkel"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:190
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:192
 msgid "Dark Transparent"
 msgstr "Dunkel Transparent"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:226
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:228
 msgid "MetrixImage"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:227
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:229
 msgid "MetrixColor"
-msgstr ""
+msgstr "MetrixFarbe"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:228
-msgid "MetrixColor on Progressbar"
-msgstr ""
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:230
+msgid "MetrixColor on Progress-/Volumebar"
+msgstr "MetrixFarbe in Fortschritt-/Lautstärkeanzeige"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:229
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:231
 msgid ""
 "----------------------------- MetrixWeather  --------------------------------"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:230
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:232
 msgid "MetrixWeather ID"
-msgstr ""
+msgstr "MetrixWetter ID"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:231
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:233
 msgid "Unit"
 msgstr "Einheit"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:232
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:234
 msgid "Refresh Interval (min)"
 msgstr "Aktualisierungsintervall (Min.)"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:233
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:235
 msgid ""
 "-------------------------------- InfoBar ------------------------------------"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:234
-msgid "Weather Widget"
-msgstr "Wetter Widget"
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:236
+msgid "Weather Clock Widget"
+msgstr "Wetter und Uhrzeit Widget"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:235
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:237
 msgid "Channel info"
 msgstr "Senderinformationen"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:236
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:238
 msgid "Channel info fontsize"
 msgstr "Senderinfo-Schriftgröße"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:237
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:239
 msgid "Show resolution info"
 msgstr "Auflösung"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:238
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:240
 msgid "Show crypt info"
 msgstr "Verschlüsselung"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:239
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:241
 msgid "Show ECM info"
 msgstr "ECM-Info"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:240
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:242
 msgid "Show Sat Position"
 msgstr "Satelliten-Position"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:241
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:243
 msgid "Show SNR"
 msgstr "SNR"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:242
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:244
 msgid "Show tuner info"
 msgstr "Tunerinfo"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:243
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:245
 msgid ""
 "---------------------------- ChannelSelection -------------------------------"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:244
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:246
 msgid "Extended Description Fontsize"
 msgstr "Schriftgröße der Sendungsinformationen"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:245
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:247
 msgid ""
 "------------------------------ EPGSelection ---------------------------------"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:246
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:248
 msgid "EPGSelection Style"
 msgstr "EPG Selection Stil"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:247
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:249
 msgid ""
 "------------------------------- ButtonStyle "
 "----------------------------------"
 msgstr ""
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:248
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:250
 msgid "Button Style"
 msgstr "Button Stil"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:291
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:293
 msgid "Do you really want to reboot now?"
 msgstr "Wollen Sie wirklich neustarten?"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:292
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:388
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:294
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:398
 msgid "Restart GUI"
 msgstr "GUI neustarten"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:295
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:297
 msgid "Information"
 msgstr "Information"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:384
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:394
 msgid "Error creating Skin!"
 msgstr "Fehler beim Erstellen des Skins!"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:387
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:397
 msgid ""
 "GUI needs a restart to apply a new skin.\n"
 "Do you want to Restart the GUI now?"
@@ -328,6 +339,6 @@ msgstr ""
 "\n"
 "Nach der Ersteinrichtung <MetrixHD_MOD> im Skin-Menü aktivieren!"
 
-#: /Users/sebastian/Projekte/openATV/enigma2-plugin-skins-metrixhd-mod-by-binicknich/MyMetrixHD_MOD/lib/enigma2/python/Plugins/Extensions/MyMetrixMOD/plugin.py:437
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:447
 msgid "Configuration tool for MetrixHD_MOD"
 msgstr "Konfigurationstool für MetrixHD_MOD"

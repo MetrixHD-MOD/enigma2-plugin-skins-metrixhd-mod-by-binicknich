@@ -127,9 +127,11 @@ config.plugins.MetrixMODWeather.tempUnit = ConfigSelection(default="Celsius", ch
 				("Fahrenheit", _("Fahrenheit"))
 				])
 				#InfoBar
-config.plugins.MyMetrixMOD.InfobarWeatherWidget = ConfigSelection(default="infobar-weatherwidget-image", choices = [
-				("infobar-weatherwidget-image", _("On")),
-				("infobar-weatherwidget-none", _("Off"))
+config.plugins.MyMetrixMOD.InfobarWeatherClockWidget = ConfigSelection(default="infobar-weatherclockwidget-both", choices = [
+				("infobar-weatherclockwidget-clock", _("Clock")),
+				("infobar-weatherclockwidget-weather", _("Weather")),
+				("infobar-weatherclockwidget-both", _("Clock and Weather")),
+				("infobar-weatherclockwidget-none", _("Off"))
 				])
 config.plugins.MyMetrixMOD.InfobarResolutionInfo = ConfigSelection(default="infobar-resolutioninfo", choices = [
 				("infobar-resolutioninfo", _("On")),
@@ -231,7 +233,7 @@ class MyMetrixMOD(ConfigListScreen, Screen):
 		list.append(getConfigListEntry(_("Unit"), config.plugins.MetrixMODWeather.tempUnit))
 		list.append(getConfigListEntry(_("Refresh Interval (min)"), config.plugins.MetrixMODWeather.refreshInterval))
 		list.append(getConfigListEntry(_("-------------------------------- InfoBar ------------------------------------"), ))
-		list.append(getConfigListEntry(_("Weather Widget"), config.plugins.MyMetrixMOD.InfobarWeatherWidget))
+		list.append(getConfigListEntry(_("Weather Clock Widget"), config.plugins.MyMetrixMOD.InfobarWeatherClockWidget))
 		list.append(getConfigListEntry(_("Channel info"), config.plugins.MyMetrixMOD.InfobarShowChannelInfo))
 		list.append(getConfigListEntry(_("Channel info fontsize"), config.plugins.MyMetrixMOD.InfobarChannelInfoFontsize))
 		list.append(getConfigListEntry(_("Show resolution info"), config.plugins.MyMetrixMOD.InfobarResolutionInfo))
@@ -331,8 +333,8 @@ class MyMetrixMOD(ConfigListScreen, Screen):
 
 			###InfoBar
 			self.appendSkinFile(self.daten + "infobar-header.xml")
-			#WeatherWidget
-			self.appendSkinFile(self.daten + config.plugins.MyMetrixMOD.InfobarWeatherWidget.value + ".xml")
+			#WeatherClockWidget
+			self.appendSkinFile(self.daten + config.plugins.MyMetrixMOD.InfobarWeatherClockWidget.value + ".xml")
 
 			#ChannelInfo
 			fontSizeData = self.getFontSizeData(config.plugins.MyMetrixMOD.InfobarChannelInfoFontsize.value)
