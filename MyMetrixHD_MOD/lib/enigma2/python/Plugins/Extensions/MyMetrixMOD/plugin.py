@@ -133,6 +133,10 @@ config.plugins.MyMetrixMOD.InfobarWeatherClockWidget = ConfigSelection(default="
 				("infobar-weatherclockwidget-both", _("Clock and Weather")),
 				("infobar-weatherclockwidget-none", _("Off"))
 				])
+config.plugins.MyMetrixMOD.InfobarIcons = ConfigSelection(default="infobar-icons", choices = [
+				("infobar-icons", _("On")),
+				("infobar-icons-none", _("Off"))
+				])
 config.plugins.MyMetrixMOD.InfobarResolutionInfo = ConfigSelection(default="infobar-resolutioninfo", choices = [
 				("infobar-resolutioninfo", _("On")),
 				("infobar-resolutioninfo-none", _("Off"))
@@ -208,7 +212,7 @@ class MyMetrixMOD(ConfigListScreen, Screen):
     <eLabel position="60,640" size="5,40" backgroundColor="#e61700" />
     <widget name="helperimage" position="669,112" size="550,500" zPosition="1" />
     <eLabel text="by iMaxxx. OpenPLI mod by IPMAN and Misenko" position="692,48" size="540,25" zPosition="1" font="Regular; 15" halign="right" valign="top" backgroundColor="#20000000" transparent="1" />
-    <eLabel text="MOD by BiNiCKNiCH" position="692,70" size="540,25" zPosition="1" font="Regular; 15" halign="right" valign="top" backgroundColor="#20000000" transparent="1" />
+    <eLabel text="MOD by BiNiCKNiCH, arn354 and svox" position="692,70" size="540,25" zPosition="1" font="Regular; 15" halign="right" valign="top" backgroundColor="#20000000" transparent="1" />
   </screen>
 """
 
@@ -236,6 +240,7 @@ class MyMetrixMOD(ConfigListScreen, Screen):
 		list.append(getConfigListEntry(_("Weather Clock Widget"), config.plugins.MyMetrixMOD.InfobarWeatherClockWidget))
 		list.append(getConfigListEntry(_("Channel info"), config.plugins.MyMetrixMOD.InfobarShowChannelInfo))
 		list.append(getConfigListEntry(_("Channel info fontsize"), config.plugins.MyMetrixMOD.InfobarChannelInfoFontsize))
+		list.append(getConfigListEntry(_("Show icons"), config.plugins.MyMetrixMOD.InfobarIcons))
 		list.append(getConfigListEntry(_("Show resolution info"), config.plugins.MyMetrixMOD.InfobarResolutionInfo))
 		list.append(getConfigListEntry(_("Show crypt info"), config.plugins.MyMetrixMOD.InfobarCryptInfo))
 		list.append(getConfigListEntry(_("Show ECM info"), config.plugins.MyMetrixMOD.InfobarECMInfo))
@@ -340,6 +345,8 @@ class MyMetrixMOD(ConfigListScreen, Screen):
 			fontSizeData = self.getFontSizeData(config.plugins.MyMetrixMOD.InfobarChannelInfoFontsize.value)
 			self.appendSkinFile(self.daten + config.plugins.MyMetrixMOD.InfobarShowChannelInfo.value + ".xml", [["{font}", fontSizeData["font"]], ["{y}", fontSizeData["y"]]])
 
+			#Icons
+			self.appendSkinFile(self.daten + config.plugins.MyMetrixMOD.InfobarIcons.value + ".xml")
 			#ResolutionInfo
 			self.appendSkinFile(self.daten + config.plugins.MyMetrixMOD.InfobarResolutionInfo.value + ".xml")
 			#CryptInfo

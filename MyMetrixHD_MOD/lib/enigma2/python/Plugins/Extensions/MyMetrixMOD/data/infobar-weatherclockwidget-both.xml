@@ -7,7 +7,7 @@
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
 		<widget source="global.CurrentTime" render="Label" position="913,75" size="140,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
-			<convert type="ClockToText">Format:%e. %B</convert>
+			<convert type="ClockToText">Format:%e. %b</convert>
 		</widget>
 		<widget render="MetrixMODWeatherUpdater" source="global.CurrentTime" position="902,124" size="10,60" backgroundColor="transparent" foregroundColor="transparent" valign="center" halign="center" font="Regular; 1" zPosition="10" />
 		<eLabel name="new eLabel" position="913,124" size="214,70" zPosition="-2" backgroundColor="background20" transparent="0" />

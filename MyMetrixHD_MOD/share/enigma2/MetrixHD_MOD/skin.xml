@@ -2,7 +2,7 @@
 	<!-- MetrixHD by iMaxxx for VTI v5.0.xxx -->
 	<!-- recommended to use only with XPicons (transparent light) -->
 	<!-- You can modify and redistribute it as long as you keep this License for the skin and all of your modifications -->
-	<!-- MOD v1.1 by BiNiCKNiCH & arn354 -->
+	<!-- MOD v1.1a by BiNiCKNiCH & arn354 -->
 	<!-- THX Area51 & IPMAN from et-view-support.com / ckone & blzr from openpli.org -->
 	<output id="0">
 		<resolution xres="1280" yres="720" bpp="32" />
@@ -193,7 +193,7 @@
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
 		<widget source="global.CurrentTime" render="Label" position="913,75" size="140,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
-			<convert type="ClockToText">Format:%e. %B</convert>
+			<convert type="ClockToText">Format:%e. %b</convert>
 		</widget>
 		<widget render="MetrixMODWeatherUpdater" source="global.CurrentTime" position="902,124" size="10,60" backgroundColor="transparent" foregroundColor="transparent" valign="center" halign="center" font="Regular; 1" zPosition="10" />
 		<eLabel name="new eLabel" position="913,124" size="214,70" zPosition="-2" backgroundColor="background20" transparent="0" />
@@ -2844,13 +2844,13 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 	</screen>
 	<screen name="SkinSelector" position="0,0" size="1280,720" title="Skin Selector" flags="wfNoBorder" backgroundColor="background90">
 		<eLabel name="new eLabel" position="264,51" zPosition="-1" size="340,320" backgroundColor="background20" transparent="0" />
-		<widget source="global.CurrentTime" render="Label" position="430,414" size="213,69" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
+		<widget source="global.CurrentTime" render="Label" position="432,412" size="170,65" font="Regular; 55" halign="left" backgroundColor="background20" transparent="1" valign="top">
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="264,445" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="267,445" size="148,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%d. %B</convert>
 		</widget>
-		<widget source="global.CurrentTime" render="Label" position="287,422" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="global.CurrentTime" render="Label" position="290,421" size="125,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
 		<eLabel name="new eLabel" position="265,410" zPosition="-1" size="340,70" backgroundColor="background20" transparent="0" />

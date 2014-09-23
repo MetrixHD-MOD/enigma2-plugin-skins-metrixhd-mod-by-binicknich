@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MyMetrixMOD v1.1b\n"
-"POT-Creation-Date: 2014-09-19 18:04+0100\n"
-"PO-Revision-Date: 2014-09-19 18:04+0100\n"
+"POT-Creation-Date: 2014-09-23 19:55+0100\n"
+"PO-Revision-Date: 2014-09-23 19:55+0100\n"
 "Last-Translator: Sebastian\n"
 "Language-Team: iMaxxx, MOD by BiNiCKNiCH <none@ima.xxx>\n"
 "Language: de\n"
@@ -109,9 +109,10 @@ msgstr ""
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:119
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:137
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:141
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:159
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:145
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:163
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:167
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:171
 msgid "On"
 msgstr "An"
 
@@ -119,11 +120,12 @@ msgstr "An"
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:134
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:138
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:142
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:148
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:160
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:146
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:152
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:164
 #: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:168
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:171
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:172
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:175
 msgid "Off"
 msgstr "Aus"
 
@@ -147,190 +149,194 @@ msgstr "Wetter"
 msgid "Clock and Weather"
 msgstr "Uhrzeit und Wetter"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:145
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:149
 msgid "Channelnumber"
 msgstr "Sendernummer"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:146
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:150
 msgid "Channelname"
 msgstr "Sendername"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:147
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:151
 msgid "Channelnumber and name"
 msgstr "Sendernummer und Name"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:172
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:176
 msgid "2 Tuner"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:173
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:177
 msgid "3 Tuner"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:174
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:178
 msgid "4 Tuner"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:178
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:182
 msgid "20 Regular"
 msgstr "20 Normal"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:179
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:183
 msgid "20 Thin"
 msgstr "20 Dünn"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:180
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:184
 msgid "22 Regular"
 msgstr "22 Normal"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:181
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:185
 msgid "22 Thin"
 msgstr "22 Dünn"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:182
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:186
 msgid "24 Regular"
 msgstr "24 Normal"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:183
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:187
 msgid "24 Thin"
 msgstr "24 Dünn"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:186
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:190
 msgid "Default"
 msgstr "Standard"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:187
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:191
 msgid "Picon"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:190
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:194
 msgid "Light"
 msgstr "Hell"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:191
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:195
 msgid "Dark"
 msgstr "Dunkel"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:192
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:196
 msgid "Dark Transparent"
 msgstr "Dunkel Transparent"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:228
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:232
 msgid "MetrixImage"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:229
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:233
 msgid "MetrixColor"
 msgstr "MetrixFarbe"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:230
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:234
 msgid "MetrixColor on Progress-/Volumebar"
 msgstr "MetrixFarbe in Fortschritt-/Lautstärkeanzeige"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:231
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:235
 msgid ""
 "----------------------------- MetrixWeather  --------------------------------"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:232
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:236
 msgid "MetrixWeather ID"
 msgstr "MetrixWetter ID"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:233
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:237
 msgid "Unit"
 msgstr "Einheit"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:234
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:238
 msgid "Refresh Interval (min)"
 msgstr "Aktualisierungsintervall (Min.)"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:235
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:239
 msgid ""
 "-------------------------------- InfoBar ------------------------------------"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:236
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:240
 msgid "Weather Clock Widget"
 msgstr "Wetter und Uhrzeit Widget"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:237
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:241
 msgid "Channel info"
 msgstr "Senderinformationen"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:238
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:242
 msgid "Channel info fontsize"
 msgstr "Senderinfo-Schriftgröße"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:239
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:243
+msgid "Show icons"
+msgstr "Icons"
+
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:244
 msgid "Show resolution info"
 msgstr "Auflösung"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:240
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:245
 msgid "Show crypt info"
 msgstr "Verschlüsselung"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:241
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:246
 msgid "Show ECM info"
 msgstr "ECM-Info"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:242
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:247
 msgid "Show Sat Position"
 msgstr "Satelliten-Position"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:243
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:248
 msgid "Show SNR"
 msgstr "SNR"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:244
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:249
 msgid "Show tuner info"
 msgstr "Tunerinfo"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:245
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:250
 msgid ""
 "---------------------------- ChannelSelection -------------------------------"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:246
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:251
 msgid "Extended Description Fontsize"
 msgstr "Schriftgröße der Sendungsinformationen"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:247
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:252
 msgid ""
 "------------------------------ EPGSelection ---------------------------------"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:248
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:253
 msgid "EPGSelection Style"
 msgstr "EPG Selection Stil"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:249
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:254
 msgid ""
 "------------------------------- ButtonStyle "
 "----------------------------------"
 msgstr ""
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:250
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:255
 msgid "Button Style"
 msgstr "Button Stil"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:293
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:298
 msgid "Do you really want to reboot now?"
 msgstr "Wollen Sie wirklich neustarten?"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:294
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:398
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:299
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:405
 msgid "Restart GUI"
 msgstr "GUI neustarten"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:297
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:302
 msgid "Information"
 msgstr "Information"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:394
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:401
 msgid "Error creating Skin!"
 msgstr "Fehler beim Erstellen des Skins!"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:397
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:404
 msgid ""
 "GUI needs a restart to apply a new skin.\n"
 "Do you want to Restart the GUI now?"
@@ -339,6 +345,6 @@ msgstr ""
 "\n"
 "Nach der Ersteinrichtung <MetrixHD_MOD> im Skin-Menü aktivieren!"
 
-#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:447
+#: D:\Eigene_Dateien\Dokumente\GitHub\enigma2-plugin-skins-metrixhd-mod-by-binicknich\MyMetrixHD_MOD\lib\enigma2\python\Plugins\Extensions\MyMetrixMOD/plugin.py:454
 msgid "Configuration tool for MetrixHD_MOD"
 msgstr "Konfigurationstool für MetrixHD_MOD"

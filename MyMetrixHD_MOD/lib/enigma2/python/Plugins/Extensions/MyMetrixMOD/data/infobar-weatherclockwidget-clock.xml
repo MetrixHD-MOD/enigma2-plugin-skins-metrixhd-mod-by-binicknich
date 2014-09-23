@@ -7,6 +7,6 @@
 			<convert type="ClockToText">Format:%A</convert>
 		</widget>
 		<widget source="global.CurrentTime" render="Label" position="913,75" size="140,29" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
-			<convert type="ClockToText">Format:%e. %B</convert>
+			<convert type="ClockToText">Format:%e. %b</convert>
 		</widget>
 <!-- WEATHER & CLOCK WIDGET */-->
