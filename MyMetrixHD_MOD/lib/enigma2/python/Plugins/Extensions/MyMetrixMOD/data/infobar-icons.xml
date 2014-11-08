@@ -1,8 +1,7 @@
 <!-- /* ICONS -->
 		<ePixmap pixmap="MetrixHD_MOD/icons/ico_hd_off.png" position="1159,688" size="41,20" zPosition="1" alphatest="blend" />
 		<widget source="session.CurrentService" render="Pixmap" position="1159,688" size="41,20" zPosition="2" pixmap="MetrixHD_MOD/icons/ico_hd_on.png" alphatest="blend">
-			<convert type="ServiceInfo">VideoWidth</convert>
-			<convert type="ValueRange">721,1980</convert>
+			<convert type="ServiceInfo">IsHD</convert>
 			<convert type="ConditionalShowHide" />
 		</widget>
 		<ePixmap pixmap="MetrixHD_MOD/icons/ico_dolby_off.png" position="1095,688" size="56,20" zPosition="1" alphatest="blend" />

@@ -2,7 +2,7 @@
 	<!-- MetrixHD by iMaxxx for VTI v5.0.xxx -->
 	<!-- recommended to use only with XPicons (transparent light) -->
 	<!-- You can modify and redistribute it as long as you keep this License for the skin and all of your modifications -->
-	<!-- MOD v1.1 by BiNiCKNiCH & arn354 -->
+	<!-- MOD v1.2 by BiNiCKNiCH & arn354 -->
 	<!-- THX Area51 & IPMAN from et-view-support.com / ckone & blzr from openpli.org -->
 	<output id="0">
 		<resolution xres="1280" yres="720" bpp="32" />
@@ -28,7 +28,8 @@
 		<color name="metrixPreTrans" value="#ccffffff" />
 		<color name="metrixPreTrans2" value="#dfffffff" />
 		<color name="metrixPreTrans3" value="#bbffffff" />
-		<color name="metrixPreTrans4" value="#80ffffff" />
+		<color name="metrixPreTrans4" value="#99ffffff" />
+		<color name="metrixPreTrans5" value="#99000000" />
 		<color name="metrixSelection" value="#00149bae" />
 		<color name="metrixYellow" value="#00ffff00" />
 		<color name="orange" value="#00f47d19" />
