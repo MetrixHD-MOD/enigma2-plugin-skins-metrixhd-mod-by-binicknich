@@ -1,5 +1,5 @@
 <!-- /* ExtendedDescription -->
-		<widget source="ServiceEvent" render="Label" position="760,118" size="490,{height}" font="{font}" backgroundColor="background20" transparent="1" valign="top">
+		<widget source="ServiceEvent" render="MetrixMODRunningText" options="movetype=running,startpoint=0,direction=top,step=1,steptime=100,repeat=4,oneshot=1,always=0,startdelay=5000,wrap" position="760,143" size="470,{height}" font="{font}" backgroundColor="darkblue" foregroundColor="white" transparent="1" valign="top">
 			<convert type="EventName">FullDescription</convert>
 		</widget>
 <!-- ExtendedDescription */ -->

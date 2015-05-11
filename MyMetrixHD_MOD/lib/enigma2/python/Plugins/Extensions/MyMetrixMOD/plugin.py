@@ -93,7 +93,7 @@ config.plugins.MyMetrixMOD.Image = ConfigSelection(default="main-custom-openatv"
 				("main-custom-openatv", _("openATV")),
 				("main-custom-openmips", _("openMips"))
 				])
-config.plugins.MyMetrixMOD.SkinColor = ConfigSelection(default="00149baf", choices = [
+config.plugins.MyMetrixMOD.SkinColor = ConfigSelection(default="000050EF", choices = [
 				("00F0A30A", _("Amber")),
 				("00825A2C", _("Brown")),
 				("000050EF", _("Cobalt")),
@@ -186,7 +186,7 @@ config.plugins.MyMetrixMOD.ChannelSelectionFontSize = ConfigSelection(default="c
 				("channelsel-fontsize-24", _("24 Regular")),
 				("channelsel-fontsize-24-thin", _("24 Thin"))
 				])
-config.plugins.MyMetrixMOD.EPGSelectionStyle = ConfigSelection(default="epgselection-default", choices = [
+config.plugins.MyMetrixMOD.EPGSelectionStyle = ConfigSelection(default="epgselection-picon", choices = [
 				("epgselection-default", _("Default")),
 				("epgselection-picon", _("Picon"))
 				])

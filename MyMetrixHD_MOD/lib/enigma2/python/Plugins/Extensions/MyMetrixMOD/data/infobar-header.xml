@@ -11,7 +11,7 @@
 			<convert type="EventTime">StartTime</convert>
 			<convert type="ClockToText">Default</convert>
 		</widget>
-		<eLabel text="-" position="1161,557" size="15,26" font="Regular; 22" halign="center" backgroundColor="background" transparent="1" valign="top" />
+		<eLabel text="-" position="1161,557" size="15,26" font="Regular; 22" halign="center" backgroundColor="background20" transparent="1" valign="top" />
 		<widget source="session.Event_Now" render="Label" position="1167,557" size="70,26" font="Regular; 22" halign="right" backgroundColor="background20" transparent="1" valign="top">
 			<convert type="EventTime">EndTime</convert>
 			<convert type="ClockToText">Default</convert>
@@ -27,11 +27,20 @@
 		<widget source="session.Event_Now" render="Progress" pixmap="MetrixHD_MOD/p_bar.png" position="288,613" size="950,3" zPosition="7" transparent="1">
 			<convert type="EventTime">Progress</convert>
 		</widget>
-		<widget source="session.Event_Next" render="Label" position="285,626" size="788,34" font="RegularLight; 27" halign="left" backgroundColor="background20" transparent="1" foregroundColor="grey" valign="top">
+		<widget source="session.Event_Next" render="Label" position="285,622" size="788,40" font="RegularLight; 30" halign="left" backgroundColor="background20" transparent="1" foregroundColor="grey" valign="top">
 			<convert type="EventName">Name</convert>
 		</widget>
-		<widget source="session.Event_Next" render="Label" position="1124,621" size="113,30" font="RegularLight; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+		<widget source="session.Event_Next" render="Label" position="1093,620" size="75,26" font="RegularLight; 20" halign="right" backgroundColor="background20" transparent="1" valign="top" foregroundColor="grey">
+			<convert type="EventTime">StartTime</convert>
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<eLabel text="-" position="1168,620" size="18,26" font="RegularLight; 20" halign="center" backgroundColor="background20" transparent="1" valign="top" foregroundColor="grey" />
+		<widget source="session.Event_Next" render="Label" position="1178,620" size="59,26" font="RegularLight; 20" halign="right" backgroundColor="background20" transparent="1" valign="top" foregroundColor="grey">
+			<convert type="EventTime">EndTime</convert>
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget source="session.Event_Next" render="Label" position="1141,646" size="96,26" font="RegularLight; 18" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1" valign="top">
 			<convert type="EventTime">Duration</convert>
 			<convert type="ClockToText">InMinutes</convert>
-		</widget>
+    </widget>
 <!-- Infobar Header *-->
